@@ -1,0 +1,156 @@
+2024-06-20 14:47:12 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Omkar\OneDrive\Desktop\DataDriven\datadriventesting\testng.xml"
+2024-06-20 14:47:13 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Omkar\OneDrive\Desktop\DataDriven\datadriventesting\testng.xml
+
+2024-06-20 14:49:29 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Omkar\OneDrive\Desktop\DataDriven\datadriventesting\testng.xml"
+2024-06-20 14:49:29 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Omkar\OneDrive\Desktop\DataDriven\datadriventesting\testng.xml
+
+2024-06-20 15:03:05 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Omkar\OneDrive\Desktop\DataDriven\datadriventesting\testng.xml"
+2024-06-20 15:03:05 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Omkar\OneDrive\Desktop\DataDriven\datadriventesting\testng.xml
+
+2024-06-20 15:04:01 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Omkar\AppData\Local\Temp\testng-eclipse-80539246\testng-customsuite.xml"
+2024-06-20 15:04:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-06-20 15:04:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2024-06-20 15:04:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-06-20 15:04:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-06-20 15:04:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-06-20 15:04:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-06-20 15:04:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-06-20 15:04:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-06-20 15:04:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 4 ms.
+2024-06-20 15:04:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 9 ms.
+2024-06-20 15:04:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-06-20 15:04:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-06-20 15:04:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-06-20 15:04:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-06-20 15:04:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-06-20 15:04:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-06-20 15:04:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-06-20 15:04:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-06-20 15:04:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-06-20 15:04:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-06-20 15:04:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-06-20 15:04:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-06-20 15:04:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-06-20 15:04:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-06-20 15:04:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-06-20 15:04:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-06-20 15:04:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-06-20 15:04:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-06-20 15:04:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-06-20 15:04:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-06-20 15:04:02 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Omkar\AppData\Local\Temp\testng-eclipse-80539246\testng-customsuite.xml
+
+2024-06-20 15:04:02 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 5 ms.
+2024-06-20 15:04:02 ERROR Utils:154 - [Error] org.testng.TestNGException: 
+Method public void testCases.TC003_LoginDDT.verify_loginDDT(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException requires a @DataProvider named : LoginData in class utilities.DataProviders
+	at org.testng.internal.Parameters.findDataProvider(Parameters.java:532)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:946)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+
+2024-06-20 15:04:02 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.jq.Main@66b72664: 59 ms
+2024-06-20 15:04:02 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.FailedReporter@5a12c728: 13 ms
+2024-06-20 15:04:02 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.XMLReporter@7cc9ce8: 14 ms
+2024-06-20 15:04:02 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@75201592: 10 ms
+2024-06-20 15:04:02 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@d4ab71a: 9 ms
+2024-06-20 15:04:02 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@3b4ef7: 1 ms
+2024-06-20 15:04:42 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Omkar\OneDrive\Desktop\DataDriven\datadriventesting\testng.xml"
+2024-06-20 15:04:42 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Omkar\OneDrive\Desktop\DataDriven\datadriventesting\testng.xml
+
+2024-06-20 15:04:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-06-20 15:04:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2024-06-20 15:04:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2024-06-20 15:04:47 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2024-06-20 15:04:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-06-20 15:04:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2024-06-20 15:04:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2024-06-20 15:04:47 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2024-06-20 15:04:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-06-20 15:04:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2024-06-20 15:04:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2024-06-20 15:04:47 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2024-06-20 15:04:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-06-20 15:04:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2024-06-20 15:04:47 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2024-06-20 15:04:47 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2024-06-20 15:04:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-06-20 15:04:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2024-06-20 15:04:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2024-06-20 15:04:48 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2024-06-20 15:04:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-06-20 15:04:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2024-06-20 15:04:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2024-06-20 15:04:48 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2024-06-20 15:04:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-06-20 15:04:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2024-06-20 15:04:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2024-06-20 15:04:48 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2024-06-20 15:04:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-06-20 15:04:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2024-06-20 15:04:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2024-06-20 15:04:48 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2024-06-20 15:04:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-06-20 15:04:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2024-06-20 15:04:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2024-06-20 15:04:48 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2024-06-20 15:04:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-06-20 15:04:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2024-06-20 15:04:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2024-06-20 15:04:48 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2024-06-20 15:04:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-06-20 15:04:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2024-06-20 15:04:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2024-06-20 15:04:48 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2024-06-20 15:04:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-06-20 15:04:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2024-06-20 15:04:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2024-06-20 15:04:48 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2024-06-20 15:04:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-06-20 15:04:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2024-06-20 15:04:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2024-06-20 15:04:48 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2024-06-20 15:04:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-06-20 15:04:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2024-06-20 15:04:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2024-06-20 15:04:48 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2024-06-20 15:04:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-06-20 15:04:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2024-06-20 15:04:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2024-06-20 15:04:48 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2024-06-20 15:04:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-06-20 15:04:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2024-06-20 15:04:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2024-06-20 15:04:48 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2024-06-20 15:04:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-06-20 15:04:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2024-06-20 15:04:48 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2024-06-20 15:04:48 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2024-06-20 15:04:52 INFO  TC003_LoginDDT:60 - Data Driven Test Case Pass
+2024-06-20 15:05:15 INFO  TC003_LoginDDT:60 - Data Driven Test Case Pass
+2024-06-20 15:05:18 INFO  TC003_LoginDDT:60 - Data Driven Test Case Pass
